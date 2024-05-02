@@ -1,0 +1,25 @@
+{
+  const user = {
+    id: 123,
+    name: { firstName: "Sagor", midName: "All", lastName: "Hassan" },
+    contactNo: "01861",
+    address: "uganda",
+  };
+
+  const {
+    address,
+    name: { firstName },
+  } = user;
+
+  const myFriends: string[] = [
+    "Anik",
+    "sagor",
+    "digonto",
+    "arif",
+    "sifat",
+    "mubassir",
+    "arafat",
+  ];
+  const [a, b, bestFriends, ...rest] = myFriends;
+  console.log(rest);
+}
