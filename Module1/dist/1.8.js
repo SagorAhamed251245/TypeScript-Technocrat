@@ -16,6 +16,6 @@
         "mubassir",
         "arafat",
     ];
-    const [a, b, bestFriends, ...restsss] = myFriends;
-    console.log(restsss);
+    const [a, b, bestFriends, ...rest] = myFriends;
+    console.log(rest);
 }
