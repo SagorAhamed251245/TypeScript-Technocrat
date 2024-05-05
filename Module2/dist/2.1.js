@@ -6,7 +6,7 @@
     anythings.length;
     anythings = 111;
     anythings.toFixed(2);
-    console.log(anythings);
+    // console.log(anythings);
     const kgToGm = (value) => {
         if (typeof value === "string") {
             const kgToGmConvert = parseFloat(value) * 1000;
@@ -20,5 +20,10 @@
     const result = kgToGm(1000);
     const result1 = kgToGm("1000");
     console.log(result1);
+    try {
+    }
+    catch (error) {
+        console.log(error.messages);
+    }
     //
 }
